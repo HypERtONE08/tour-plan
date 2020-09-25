@@ -909,8 +909,8 @@ template {
     background-color: #333333;
   }
   .stars {
-    -ms-flex-preferred-size: 50%;
-        flex-basis: 50%;
+    -ms-flex-preferred-size: 30%;
+        flex-basis: 30%;
   }
   .hotel-name {
     -ms-flex-preferred-size: 100%;
