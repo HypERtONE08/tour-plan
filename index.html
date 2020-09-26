@@ -213,24 +213,30 @@
       </div>
       <!-- /.container -->
     </section>
-    <section class="newsletter">
-      <div class="newsletter-wrapper">
-        <h2 class="newsletter-title newsletter__title">
-          subscribe to our
-          <span class="newsletter-title__strong">Newsletter</span>
-        </h2>
-        <form action="#" class="subscribe newsletter__subscribe">
-          <input
-            type="text"
-            class="subscribe__input"
-            placeholder="Your email address"
-          />
-          <button class="subscribe__button">Send</button>
-        </form>
-        <!-- /.newsletter-title -->
-      </div>
-      <!-- /.newsletter-wrapper -->
-    </section>
+    <div
+      class="parallax-window"
+      data-parallax="scroll"
+      data-image-src="img/newsletter-bg.jpeg"
+    >
+      <section class="newsletter">
+        <div class="newsletter-wrapper">
+          <h2 class="newsletter-title newsletter__title">
+            subscribe to our
+            <span class="newsletter-title__strong">Newsletter</span>
+          </h2>
+          <form action="#" class="subscribe newsletter__subscribe">
+            <input
+              type="text"
+              class="subscribe__input"
+              placeholder="Your email address"
+            />
+            <button class="subscribe__button">Send</button>
+          </form>
+          <!-- /.newsletter-title -->
+        </div>
+        <!-- /.newsletter-wrapper -->
+      </section>
+    </div>
     <!-- /.newsletter -->
     <section class="reviews">
       <div class="container">
@@ -319,5 +325,7 @@
     </section>
     <script src="js/swiper-bundle.min.js"></script>
     <script src="js/main.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="js/parallax.js-1.5.0/parallax.min.js"></script>
   </body>
 </html>
