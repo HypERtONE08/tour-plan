@@ -9,6 +9,10 @@ body {
   background-color: #f5fafe;
 }
 
+img {
+  max-width: 100%;
+}
+
 button:active, button:focus {
   outline: none;
 }
@@ -392,7 +396,7 @@ template {
   display: none;
 }
 
-.navbar__seaarch {
+.navbar__search {
   margin-right: auto;
   margin-left: 108px;
 }
@@ -440,7 +444,7 @@ template {
 }
 
 .search__input {
-  width: 340px;
+  width: 350px;
   height: 100%;
   padding-left: 23px;
   padding-right: 75px;
@@ -1341,7 +1345,7 @@ template {
     padding-top: 30px;
     padding-bottom: 30px;
   }
-  .navbar__seaarch {
+  .navbar__search {
     margin-left: auto;
   }
   .navbar-menu {
@@ -1353,7 +1357,7 @@ template {
     line-height: 15px;
   }
   .search__input {
-    max-width: 340px;
+    width: 340px;
   }
   .hotel-grid {
     -webkit-box-orient: vertical;
