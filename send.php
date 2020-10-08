@@ -29,14 +29,14 @@ try {
 
     // Настройки вашей почты
     $mail->Host       = 'smtp.gmail.com'; // SMTP сервера вашей почты
-    $mail->Username   = 'hyperton08@gmail.com'; // Логин на почте
-    $mail->Password   = 'TheSportLife08'; // Пароль на почте
+    $mail->Username   = 'hsolutions08@gmail.com'; // Логин на почте
+    $mail->Password   = 'NowyParol08'; // Пароль на почте
     $mail->SMTPSecure = 'ssl';
     $mail->Port       = 465;
-    $mail->setFrom('hyperton08@gmail.com', 'Stanislav Kovtun'); // Адрес самой почты и имя отправителя
+    $mail->setFrom('hsolutions08@gmail.com', 'Hyper Solutions'); // Адрес самой почты и имя отправителя
 
     // Получатель письма
-    $mail->addAddress('hyperton@icloud.com');  
+    $mail->addAddress('hyperton08@gmail.com');  
 
     // Отправка сообщения
     $mail->isHTML(true);

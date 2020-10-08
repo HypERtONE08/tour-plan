@@ -30,6 +30,7 @@
               type="text"
               class="search__input"
               placeholder="Search Location"
+              required
             />
             <button class="search__button">
               <img src="img/search.svg" alt="Icon: search" />
@@ -262,6 +263,7 @@
               type="text"
               class="subscribe__input"
               placeholder="Your email address"
+              required
             />
             <button class="subscribe__button">Send</button>
           </form>
@@ -583,17 +585,20 @@
                 class="input footer__input"
                 placeholder="Your Full Name*"
                 name="name"
+                required
               />
               <input
                 type="text"
                 class="input footer__input"
                 placeholder="Phone Number*"
                 name="phone"
+                required
               />
               <textarea
                 class="message footer__message"
                 placeholder="Message"
                 name="message"
+                required
               ></textarea>
               <button class="button footer__button" type="submit">Send</button>
               <span class="footer__info">* Required Fields</span>
@@ -620,23 +625,27 @@
             class="input modal__input"
             placeholder="Your Full Name*"
             name="name"
+            required
           />
           <input
             type="text"
             class="input modal__input"
             placeholder="Phone Number*"
             name="phone"
+            required
           />
           <input
             type="text"
             class="input modal__input"
             placeholder="Email*"
             name="email"
+            required
           />
           <textarea
             class="message modal__message"
             placeholder="Message"
             name="message"
+            required
           ></textarea>
           <button class="button modal__button" type="submit">Send</button>
           <span class="modal__info">* Required Fields</span>
@@ -647,8 +656,9 @@
     <!-- /.modal -->
     <script src="js/jquery-3.5.1.min.js"></script>
     <script src="js/swiper-bundle.min.js"></script>
-    <script src="js/main.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <script src="js/parallax.js-1.5.0/parallax.min.js"></script>
+    <script src="js/jquery.validate.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="js/main.js"></script>
   </body>
 </html>
