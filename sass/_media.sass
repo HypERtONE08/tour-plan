@@ -1,10 +1,9 @@
 @media (max-width: 1200px)
   .container
     max-width: 960px
-  .slider
-    width: 590px
   .hotel
     &-slider
+      width: 590px
       &__image
         width: 100%
         height: 100%
@@ -158,7 +157,7 @@
         margin-left: 0
         margin-top: 10px
   .stars
-    flex-basis: content
+    flex-basis: 10%
   .hotel
     &-name
       flex-basis: 100%
@@ -217,9 +216,16 @@
   .footer
     &__input
       flex-basis: 100%
+  .modal
+    &__dialog
+      width: auto
+      height: auto
+      padding: 40px
 @media (max-width: 576px)
   .logo
     width: 99px
+  .stars
+    flex-basis: 12%
   .hotel
     &__slider
       margin-bottom: 20px
@@ -277,3 +283,6 @@
     &__button
       grid-row: 9
       grid-column: 1
+@media (max-width: 320px)
+  .stars
+    flex-basis: 20%

@@ -9,6 +9,7 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="css/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="css/aos.css" />
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
@@ -275,10 +276,12 @@
     <!-- /.newsletter -->
     <section class="reviews">
       <div class="container">
-        <h2 class="reviews__title">What people think about us</h2>
+        <h2 class="reviews__title" data-aos="fade-up" data-aos-delay="100">
+          What people think about us
+        </h2>
         <div class="swiper-container reviews-slider">
           <div class="swiper-wrapper">
-            <div class="swiper-slide">
+            <div class="swiper-slide" data-aos="fade-up" data-aos-delay="200">
               <div class="reviews-slider__item">
                 <div class="reviews-slider__profile">
                   <img
@@ -360,9 +363,15 @@
     </section>
     <section class="activities">
       <div class="container">
-        <h2 class="activities__title">Other Activities</h2>
+        <h2 class="activities__title" data-aos="fade-up" data-aos-delay="100">
+          Other Activities
+        </h2>
         <div class="activities-wrapper">
-          <div class="card activities__card">
+          <div
+            class="card activities__card"
+            data-aos="fade-up"
+            data-aos-delay="200"
+          >
             <img
               src="img/activity-1.jpg"
               alt="The curious corner of chamarel"
@@ -370,11 +379,15 @@
             />
             <h3 class="card__title">The curious corner of chamarel</h3>
             <!-- /.card__title -->
-            <button class="card__button">Book Now</button>
+            <button data-toggle="modal" class="card__button">Book Now</button>
             <!-- /.card__button -->
           </div>
           <!-- /.card -->
-          <div class="card activities__card">
+          <div
+            class="card activities__card"
+            data-aos="fade-up"
+            data-aos-delay="300"
+          >
             <img
               src="img/activity-2.jpg"
               alt="Gymkhana club golf course"
@@ -382,11 +395,15 @@
             />
             <h3 class="card__title">Gymkhana club golf course</h3>
             <!-- /.card__title -->
-            <button class="card__button">Book Now</button>
+            <button data-toggle="modal" class="card__button">Book Now</button>
             <!-- /.card__button -->
           </div>
           <!-- /.card -->
-          <div class="card activities__card">
+          <div
+            class="card activities__card"
+            data-aos="fade-up"
+            data-aos-delay="400"
+          >
             <img
               src="img/activity-3.jpg"
               alt="Tamarind falls hiking trip - full day"
@@ -394,11 +411,15 @@
             />
             <h3 class="card__title">Tamarind falls hiking trip - full day</h3>
             <!-- /.card__title -->
-            <button class="card__button">Book Now</button>
+            <button data-toggle="modal" class="card__button">Book Now</button>
             <!-- /.card__button -->
           </div>
           <!-- /.card -->
-          <div class="card activities__card">
+          <div
+            class="card activities__card"
+            data-aos="fade-up"
+            data-aos-delay="500"
+          >
             <img
               src="img/activity-4.jpg"
               alt="The blue marine discovery quest"
@@ -406,7 +427,7 @@
             />
             <h3 class="card__title">The blue marine discovery quest</h3>
             <!-- /.card__title -->
-            <button class="card__button">Book Now</button>
+            <button data-toggle="modal" class="card__button">Book Now</button>
             <!-- /.card__button -->
           </div>
           <!-- /.card -->
@@ -416,7 +437,7 @@
     </section>
     <footer class="footer">
       <div class="container">
-        <div class="footer-wrapper">
+        <div class="footer-wrapper" data-aos="fade-up" data-aos-delay="500">
           <img
             src="img/vertical-logo.svg"
             alt="Logo: Best Tour Plan"
@@ -659,6 +680,7 @@
     <script src="js/parallax.js-1.5.0/parallax.min.js"></script>
     <script src="js/jquery.validate.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="js/aos.js"></script>
     <script src="js/main.js"></script>
   </body>
 </html>

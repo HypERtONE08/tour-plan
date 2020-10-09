@@ -63,6 +63,7 @@ textarea {
   background-color: #ec1f46;
   border: none;
   border-radius: 4px;
+  cursor: pointer;
 }
 
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
@@ -632,8 +633,9 @@ template {
 }
 
 .hotel-slider {
-  width: 728px;
+  max-width: 728px;
   height: 450px;
+  margin: 0;
 }
 
 .hotel-slider__item {
@@ -1422,7 +1424,7 @@ template {
   .container {
     max-width: 960px;
   }
-  .slider {
+  .hotel-slider {
     width: 590px;
   }
   .hotel-slider__image {
@@ -1645,8 +1647,8 @@ template {
     margin-top: 10px;
   }
   .stars {
-    -ms-flex-preferred-size: content;
-        flex-basis: content;
+    -ms-flex-preferred-size: 10%;
+        flex-basis: 10%;
   }
   .hotel-name {
     -ms-flex-preferred-size: 100%;
@@ -1733,11 +1735,20 @@ template {
     -ms-flex-preferred-size: 100%;
         flex-basis: 100%;
   }
+  .modal__dialog {
+    width: auto;
+    height: auto;
+    padding: 40px;
+  }
 }
 
 @media (max-width: 576px) {
   .logo {
     width: 99px;
+  }
+  .stars {
+    -ms-flex-preferred-size: 12%;
+        flex-basis: 12%;
   }
   .hotel__slider {
     margin-bottom: 20px;
@@ -1826,6 +1837,13 @@ template {
     grid-row: 9;
     -ms-grid-column: 1;
     grid-column: 1;
+  }
+}
+
+@media (max-width: 320px) {
+  .stars {
+    -ms-flex-preferred-size: 20%;
+        flex-basis: 20%;
   }
 }
 /*# sourceMappingURL=style.css.map */
