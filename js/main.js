@@ -44,5 +44,26 @@ $(document).ready(function () {
     modalDialog.removeClass("modal__dialog--visible");
   }
 
+  //animation
   AOS.init();
+
+  //validation
+  $(".form").each(function () {
+    $(this).validate({
+      errorClass: "invalid",
+      messages: {
+        name: {
+          required: "Please specify your name",
+          minlength: "The name is at least 2 letters",
+        },
+        email: {
+          required: "Need your email address to contact you",
+          email: "Your email address must be in the format of name@domain.com",
+        },
+        phone: {
+          required: "We need your phone number",
+        },
+      },
+    });
+  });
 });
